@@ -161,7 +161,7 @@ export default function CheckoutPage() {
       `📍 Adresse: ${formData.address}, ${formData.city}\n` +
       `💳 Paiement: ${formData.paymentMethod.toUpperCase()}`
     );
-    window.open(`https://wa.me/21658409210?text=${text}`, "_blank");
+    window.open(`https://wa.me/971503989965?text=${text}`, "_blank");
     clearCart();
   };
 

@@ -40,7 +40,7 @@ export default function ContactPage() {
       `📞 Tél: ${formData.phone || "Non spécifié"}\n` +
       `💬 Message: ${formData.message || "Demande de contact"}`
     );
-    window.open(`https://wa.me/21658409210?text=${text}`, "_blank");
+    window.open(`https://wa.me/971503989965?text=${text}`, "_blank");
   };
 
   return (

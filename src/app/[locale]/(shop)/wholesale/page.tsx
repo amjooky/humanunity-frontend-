@@ -45,7 +45,7 @@ export default function WholesalePage() {
       `💼 Activité: ${formData.businessType}\n` +
       `🔢 Matricule Fiscal: ${formData.taxId}`
     );
-    window.open(`https://wa.me/21658409210?text=${message}`, "_blank");
+    window.open(`https://wa.me/971503989965?text=${message}`, "_blank");
   };
 
   return (

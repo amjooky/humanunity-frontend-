@@ -59,7 +59,7 @@ export const SOCIAL_LINKS = {
   facebook: 'https://facebook.com/humanunity',
   instagram: 'https://instagram.com/humanunity',
   linkedin: 'https://linkedin.com/company/humanunity',
-  whatsapp: 'https://wa.me/21658409210',
+  whatsapp: 'https://wa.me/971503989965',
 } as const;
 
 // ─── SEO ───
