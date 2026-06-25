@@ -1,8 +1,8 @@
 import { createServerClient } from "@supabase/ssr";
 import { cookies } from "next/headers";
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://xlnfvrlcqqtgnfuhxyfr.supabase.co";
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "sb_publishable_gPM_KOw5XLNKV3WMURTy8A_G1tMO1Nj";
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://txmgboymetrhxidnqbje.supabase.co";
+const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "sb_publishable__9vVdRbZ9sb-YXUjVykNxg_REApNSLP";
 
 export const createClient = (cookieStore: any) => {
   return createServerClient(

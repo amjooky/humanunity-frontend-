@@ -9,8 +9,8 @@ const intlMiddleware = createMiddleware({
   localePrefix: "always",
 });
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://xlnfvrlcqqtgnfuhxyfr.supabase.co";
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || "sb_publishable_gPM_KOw5XLNKV3WMURTy8A_G1tMO1Nj";
+const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || "https://txmgboymetrhxidnqbje.supabase.co";
+const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY || "sb_publishable__9vVdRbZ9sb-YXUjVykNxg_REApNSLP";
 
 export async function middleware(request: NextRequest) {
   // 1. Run next-intl middleware to get response with locale redirection
