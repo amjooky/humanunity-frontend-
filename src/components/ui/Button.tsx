@@ -38,11 +38,11 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 
     const variants = {
       primary:
-        "bg-black text-white hover:bg-neutral-800 shadow-[0_2px_0_0_rgba(0,0,0,0.3)] hover:shadow-[0_4px_12px_rgba(0,0,0,0.2)] hover:-translate-y-0.5",
+        "bg-black text-white hover:bg-black shadow-[4px_4px_0_0_rgba(0,0,0,0.2)] hover:shadow-[6px_6px_0_0_rgba(0,0,0,0.5)] hover:-translate-y-[2px] hover:-translate-x-[2px]",
       secondary:
-        "bg-neutral-100 text-black border border-neutral-200 hover:bg-neutral-200 hover:border-neutral-300",
+        "bg-neutral-100 text-black border-2 border-black shadow-[2px_2px_0_0_rgba(0,0,0,1)] hover:shadow-[4px_4px_0_0_rgba(0,0,0,1)] hover:-translate-y-[2px] hover:-translate-x-[2px]",
       outline:
-        "bg-transparent border-2 border-black text-black hover:bg-black hover:text-white",
+        "bg-transparent border-2 border-black text-black shadow-[2px_2px_0_0_rgba(0,0,0,1)] hover:shadow-[4px_4px_0_0_rgba(0,0,0,1)] hover:-translate-y-[2px] hover:-translate-x-[2px]",
       ghost:
         "bg-transparent text-black hover:bg-neutral-100 border border-transparent hover:border-neutral-200",
       gold:

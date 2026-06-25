@@ -144,7 +144,7 @@ export default async function Home({ params }: HomeProps) {
               <Button
                 variant="primary"
                 size="lg"
-                className="w-full sm:min-w-[200px] rounded-none bg-white text-black hover:bg-neutral-200 transition-colors shadow-lg"
+                className="w-full sm:min-w-[200px] rounded-none bg-white text-black hover:bg-black hover:text-white transition-all shadow-[4px_4px_0_0_rgba(0,0,0,1)] hover:shadow-[6px_6px_0_0_rgba(0,0,0,1)] hover:-translate-y-1 hover:-translate-x-1"
               >
                 {t("hero.ctaPrimary")}
               </Button>
@@ -153,7 +153,7 @@ export default async function Home({ params }: HomeProps) {
               <Button
                 variant="outline"
                 size="lg"
-                className="w-full sm:min-w-[200px] rounded-none border-white/25 text-white hover:bg-white/10 hover:border-white/50 backdrop-blur-sm"
+                className="w-full sm:min-w-[200px] rounded-none border-2 border-white/50 text-white hover:bg-white hover:text-black transition-all hover:shadow-[4px_4px_0_0_rgba(255,255,255,1)] hover:-translate-y-1 hover:-translate-x-1 backdrop-blur-sm"
               >
                 {t("hero.ctaSecondary")}
               </Button>

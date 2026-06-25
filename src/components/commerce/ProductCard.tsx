@@ -88,7 +88,7 @@ export function ProductCard({ product }: ProductCardProps) {
   return (
     <Link
       href={`/product/${product.slug}`}
-      className="group relative flex flex-col h-full bg-white overflow-hidden transition-all duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] hover:-translate-y-1 cursor-pointer border border-neutral-200 hover:border-black hover:shadow-[0_8px_30px_rgba(0,0,0,0.10)]"
+      className="group relative flex flex-col h-full bg-white transition-all duration-200 ease-out border-2 border-neutral-200 hover:border-black hover:shadow-[6px_6px_0_0_rgba(0,0,0,1)] hover:-translate-y-1 hover:-translate-x-1 cursor-pointer"
     >
       {/* ── Badges ── */}
       <div className="absolute top-3 left-3 rtl:left-auto rtl:right-3 z-10 flex flex-col gap-1.5 pointer-events-none">
@@ -140,13 +140,12 @@ export function ProductCard({ product }: ProductCardProps) {
 
         {/* Hover overlay with quick-add */}
         <div
-          className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-400 flex flex-col items-center justify-end p-4"
-          style={{ background: "linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 60%)" }}
+          className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-200 flex flex-col items-center justify-end p-4 bg-black/40"
         >
           <button
             onClick={handleQuickAdd}
             disabled={isAdding}
-            className="w-full py-3 px-5 bg-white text-black font-display font-bold text-[10px] uppercase tracking-[0.15em] transition-all duration-200 flex items-center justify-center gap-2 disabled:opacity-70 hover:bg-neutral-100 cursor-pointer"
+            className="w-full py-3 px-5 bg-black text-white font-display font-bold text-[10px] uppercase tracking-[0.15em] transition-all duration-200 flex items-center justify-center gap-2 disabled:opacity-70 hover:bg-white hover:text-black hover:shadow-[4px_4px_0_0_rgba(0,0,0,1)] hover:-translate-y-1 border-2 border-transparent hover:border-black cursor-pointer"
           >
             {isAdding ? (
               <>

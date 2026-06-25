@@ -349,22 +349,22 @@
 }
 
 /* ─── HOVER UNDERLINE ─── */
-.hover-underline-gold {
+.hover-underline-sharp {
   position: relative;
 }
 
-.hover-underline-gold::after {
+.hover-underline-sharp::after {
   content: '';
   position: absolute;
   bottom: -2px;
   left: 0;
   width: 0;
-  height: 1px;
+  height: 2px;
   background: #000000;
-  transition: width 0.3s var(--ease-luxury);
+  transition: width 0.15s ease-out;
 }
 
-.hover-underline-gold:hover::after {
+.hover-underline-sharp:hover::after {
   width: 100%;
 }
 

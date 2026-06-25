@@ -257,10 +257,10 @@ export function Header() {
       {/* Main Header */}
       <header
         className={cn(
-          "fixed left-0 w-full z-[400] transition-all duration-500",
+          "fixed left-0 w-full z-[400] transition-all duration-300",
           "top-[33px]",
           (isScrolled || pathname !== "/")
-            ? "bg-white/90 backdrop-blur-2xl border-b border-neutral-200 py-3"
+            ? "bg-white/95 border-b-2 border-black py-3 shadow-[0_4px_0_0_rgba(0,0,0,1)]"
             : "bg-transparent py-5"
         )}
       >
@@ -303,7 +303,7 @@ export function Header() {
                   key={link.href}
                   href={link.href}
                   className={cn(
-                    "font-display font-bold text-[10px] uppercase tracking-widest transition-all duration-300 relative py-1 hover-underline-gold",
+                    "font-display font-bold text-[10px] uppercase tracking-widest transition-all duration-200 relative py-1 hover-underline-sharp",
                     isActive
                       ? "text-black"
                       : (isScrolled || pathname !== "/")
@@ -313,7 +313,7 @@ export function Header() {
                 >
                   {link.label}
                   {isActive && (
-                    <span className="absolute bottom-0 left-0 w-full h-[1px] bg-black" />
+                    <span className="absolute bottom-0 left-0 w-full h-[2px] bg-black" />
                   )}
                 </Link>
               );

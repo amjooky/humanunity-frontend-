@@ -8,6 +8,7 @@ import { BottomNav } from "@/components/layout/BottomNav";
 import { CartDrawer } from "@/components/commerce/CartDrawer";
 import { SearchModal } from "@/components/commerce/SearchModal";
 import { RegisterSW } from "@/components/layout/RegisterSW";
+import Cursor from "@/components/ui/Cursor";
 
 interface LocaleLayoutProps {
   children: React.ReactNode;
@@ -35,6 +36,7 @@ export default async function LocaleLayout({
   return (
     <NextIntlClientProvider messages={messages}>
       <RegisterSW />
+      <Cursor />
       <div dir={dir} className="min-h-full flex flex-col bg-surface-100 text-text-primary">
         {/* Global Luxury Navigation Header */}
         <Header />
