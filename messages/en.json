@@ -1,0 +1,144 @@
+{
+  "Common": {
+    "title": "Human Unity",
+    "search": "Search...",
+    "searchPlaceholder": "Search for t-shirts, hoodies, bottoms, outerwear...",
+    "cart": "Cart",
+    "account": "Account",
+    "wholesale": "Partnerships Area",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "next": "Next",
+    "previous": "Previous",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "Navigation": {
+    "home": "Home",
+    "discover": "Discover",
+    "cart": "Cart",
+    "about": "Our Story",
+    "contact": "Contact",
+    "wholesale": "Partnerships"
+  },
+  "Home": {
+    "hero": {
+      "subtitle": "A Streetwear Movement — Inspired by Unity",
+      "title": "WE ARE MORE CONNECTED THAN WE THINK.",
+      "description": "HUMAN.UNITY is a contemporary streetwear brand built around a simple idea: human connection beyond borders, cultures, religions, and social divisions.",
+      "ctaPrimary": "Shop Collections",
+      "ctaSecondary": "Partnerships"
+    },
+    "categories": {
+      "title": "Explore the Collections",
+      "subtitle": "Monochrome basics, technical outerwear, and heavy fleece streetwear.",
+      "tshirts": "Oversized T-Shirts",
+      "hoodies": "Heavyweight Hoodies",
+      "bottoms": "Pantalons & Shorts",
+      "outerwear": "Technical Jackets"
+    },
+    "bestsellers": {
+      "title": "New Drops & Bestsellers",
+      "subtitle": "Limited edition streetwear staples designed for daily wear."
+    },
+    "brandStory": {
+      "title": "Human Unity Movement",
+      "subtitle": "Connecting through creativity & culture",
+      "description": "HUMAN.UNITY combines fashion, art, photography, and storytelling to spark meaningful conversations. Our collections act as physical mediums for unity, awareness, and positive social impact.",
+      "cta": "Learn more"
+    },
+    "wholesaleCTA": {
+      "title": "Boutique & Retail Partners",
+      "subtitle": "Global shipping & exclusive retail pricing for concept stores",
+      "description": "Interested in stocking HUMAN.UNITY in your retail store or boutique? Apply for a retail partner account to access custom rates and preview upcoming drops.",
+      "cta": "Apply for Retail Access"
+    }
+  },
+  "Product": {
+    "addToCart": "Add to cart",
+    "outOfStock": "Out of stock",
+    "quantity": "Quantity",
+    "description": "Description",
+    "origin": "Material",
+    "intensity": "Weight",
+    "reviews": "Reviews",
+    "relatedProducts": "You might also like",
+    "quickAdd": "Quick Add"
+  },
+  "Cart": {
+    "title": "Your Selection",
+    "empty": "Your cart is empty.",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "total": "Total",
+    "checkout": "Proceed to checkout",
+    "remove": "Remove",
+    "freeShippingSuccess": "Congratulations! You get free shipping.",
+    "freeShippingTarget": "Add {amount} more for free shipping."
+  },
+  "Checkout": {
+    "title": "Finalize order",
+    "billingDetails": "Shipping details",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "phone": "Phone number (e.g. 50123456)",
+    "address": "Address",
+    "city": "City / Region",
+    "postalCode": "Postal code",
+    "paymentMethod": "Payment method",
+    "cod": "Cash on Delivery",
+    "flouci": "Flouci (Mobile Payment)",
+    "konnect": "Konnect (Credit/Debit Card)",
+    "d17": "D17 (Tunisian Post)",
+    "placeOrder": "Place order",
+    "processing": "Processing...",
+    "orderSummary": "Order summary",
+    "successTitle": "Order confirmed!",
+    "successSubtitle": "Thank you for your purchase. We have sent you a confirmation message.",
+    "whatsappConfirm": "Confirm via WhatsApp",
+    "whatsappConfirmDesc": "Click below to instantly confirm your order with our sales team on WhatsApp."
+  },
+  "Wholesale": {
+    "title": "Partnership Area",
+    "applyTitle": "Apply for a boutique account",
+    "applySubtitle": "Get access to retail pricing and bulk ordering",
+    "companyName": "Boutique / Store Name",
+    "taxId": "Tax ID / Patent",
+    "businessType": "Store Type",
+    "monthlyVolume": "Estimated order frequency",
+    "submitApplication": "Submit application",
+    "pendingTitle": "Application under review",
+    "pendingDesc": "Your retail partner application has been received and is under review. We will contact you within 24 to 48 hours.",
+    "approvedTitle": "Retail Access Active",
+    "approvedDesc": "Welcome to your partner workspace. You can now place orders at boutique prices."
+  },
+  "Contact": {
+    "tag": "CONTACT US",
+    "title": "At your service",
+    "description": "Our team responds within 24 hours.",
+    "addressTitle": "Headquarters & Showroom",
+    "addressDetail": "Human Unity Showroom\nCharguia II Industrial Zone, Rue des Entrepreneurs\n2035 Tunis, Tunisia",
+    "phone": "Phone",
+    "email": "Email",
+    "whatsappTitle": "Direct WhatsApp Support",
+    "whatsappDesc": "Prefer instant messaging? Chat directly with our team.",
+    "whatsappBtn": "Chat on WhatsApp",
+    "formName": "Full Name",
+    "formNamePlaceholder": "Ex: Sam",
+    "formEmail": "Email Address",
+    "formEmailPlaceholder": "Ex: sam@gmail.com",
+    "formPhone": "Phone Number",
+    "formPhonePlaceholder": "Ex: 50 123 456",
+    "formSubject": "Subject",
+    "formSubjectPlaceholder": "Ex: Stock Inquiry",
+    "formMessage": "Message",
+    "formMessagePlaceholder": "Describe your request in detail...",
+    "formSubmit": "Send Message",
+    "successTitle": "Message sent successfully!",
+    "successDesc": "Thank you for contacting us. We will get back to you as soon as possible."
+  }
+}

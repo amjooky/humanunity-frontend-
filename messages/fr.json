@@ -1,0 +1,144 @@
+{
+  "Common": {
+    "title": "Human Unity",
+    "search": "Rechercher...",
+    "searchPlaceholder": "Rechercher des t-shirts, hoodies, pantalons, vestes...",
+    "cart": "Panier",
+    "account": "Compte",
+    "wholesale": "Espace Partenaires",
+    "loading": "Chargement...",
+    "error": "Une erreur est survenue",
+    "retry": "Réessayer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "submit": "Soumettre",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "menu": "Menu",
+    "close": "Fermer"
+  },
+  "Navigation": {
+    "home": "Accueil",
+    "discover": "Découvrir",
+    "cart": "Panier",
+    "about": "Notre Histoire",
+    "contact": "Contact",
+    "wholesale": "Partenariats"
+  },
+  "Home": {
+    "hero": {
+      "subtitle": "Un Mouvement Streetwear — Inspiré par l'Unité",
+      "title": "NOUS SOMMES PLUS CONNECTÉS QUE NOUS LE PENSONS.",
+      "description": "HUMAN.UNITY est une marque de streetwear contemporaine bâtie autour d'une idée simple : la connexion humaine au-delà des frontières, des cultures et des milieux sociaux.",
+      "ctaPrimary": "Acheter la Collection",
+      "ctaSecondary": "Partenariats"
+    },
+    "categories": {
+      "title": "Explorez les Collections",
+      "subtitle": "Basiques monochromes, vestes techniques et molleton lourd streetwear.",
+      "tshirts": "T-Shirts Oversized",
+      "hoodies": "Hoodies Lourds",
+      "bottoms": "Pantalons & Shorts",
+      "outerwear": "Vestes Techniques"
+    },
+    "bestsellers": {
+      "title": "Nouveautés & Bestsellers",
+      "subtitle": "Pièces streetwear en édition limitée conçues pour le quotidien."
+    },
+    "brandStory": {
+      "title": "Mouvement Human Unity",
+      "subtitle": "Se connecter à travers la créativité et la culture",
+      "description": "HUMAN.UNITY combine la mode, l'art, la photographie et le storytelling pour susciter des conversations significatives. Nos collections agissent comme des vecteurs physiques d'unité, de conscience et d'impact social positif.",
+      "cta": "En savoir plus"
+    },
+    "wholesaleCTA": {
+      "title": "Partenaires Boutiques & Retail",
+      "subtitle": "Livraison globale & tarifs exclusifs pour les concept stores",
+      "description": "Vous souhaitez distribuer HUMAN.UNITY dans votre boutique ou concept store ? Créez un compte partenaire pour accéder à nos tarifs professionnels et prévisualiser les prochains drops.",
+      "cta": "Demander un Accès Partenaire"
+    }
+  },
+  "Product": {
+    "addToCart": "Ajouter au panier",
+    "outOfStock": "Rupture de stock",
+    "quantity": "Quantité",
+    "description": "Description",
+    "origin": "Matière",
+    "intensity": "Grammage",
+    "reviews": "Avis clients",
+    "relatedProducts": "Vous aimerez aussi",
+    "quickAdd": "Ajout rapide"
+  },
+  "Cart": {
+    "title": "Votre Sélection",
+    "empty": "Votre panier est vide.",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "total": "Total",
+    "checkout": "Passer la commande",
+    "remove": "Supprimer",
+    "freeShippingSuccess": "Félicitations ! La livraison est gratuite.",
+    "freeShippingTarget": "Ajoutez {amount} pour bénéficier de la livraison gratuite."
+  },
+  "Checkout": {
+    "title": "Finaliser la commande",
+    "billingDetails": "Détails de livraison",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "phone": "Téléphone (ex: 50123456)",
+    "address": "Adresse",
+    "city": "Ville / Région",
+    "postalCode": "Code Postal",
+    "paymentMethod": "Moyen de paiement",
+    "cod": "Paiement en espèces à la livraison",
+    "flouci": "Flouci (Mobile Payment)",
+    "konnect": "Konnect (Carte Bancaire)",
+    "d17": "D17 (Poste Tunisienne)",
+    "placeOrder": "Confirmer la commande",
+    "processing": "Traitement en cours...",
+    "orderSummary": "Résumé de la commande",
+    "successTitle": "Commande confirmée !",
+    "successSubtitle": "Merci pour votre confiance. Nous vous avons envoyé un message de confirmation.",
+    "whatsappConfirm": "Confirmer via WhatsApp",
+    "whatsappConfirmDesc": "Cliquez ci-dessous pour confirmer votre commande instantanément avec notre équipe commerciale sur WhatsApp."
+  },
+  "Wholesale": {
+    "title": "Espace Partenaires",
+    "applyTitle": "Demande de compte partenaire",
+    "applySubtitle": "Accédez aux tarifs professionnels et commandes en volume",
+    "companyName": "Nom de la boutique / Concept store",
+    "taxId": "Identifiant Fiscal / Patente",
+    "businessType": "Type de boutique",
+    "monthlyVolume": "Fréquence d'achat estimée",
+    "submitApplication": "Envoyer ma demande",
+    "pendingTitle": "Demande en cours d'examen",
+    "pendingDesc": "Votre demande d'accès partenaire a été reçue et est en cours d'examen. Nous vous contacterons sous 24 à 48 heures.",
+    "approvedTitle": "Espace Partenaire Activé",
+    "approvedDesc": "Bienvenue dans votre espace partenaire. Vous pouvez désormais passer vos commandes aux tarifs boutiques."
+  },
+  "Contact": {
+    "tag": "CONTACTEZ-NOUS",
+    "title": "À votre entière disposition",
+    "description": "Notre équipe commerciale et technique vous répond sous 24 heures.",
+    "addressTitle": "Showroom Human Unity",
+    "addressDetail": "Showroom Human Unity\nZone Industrielle Charguia II, Rue des Entrepreneurs\n2035 Tunis, Tunisie",
+    "phone": "Téléphone",
+    "email": "Email",
+    "whatsappTitle": "Support Direct WhatsApp",
+    "whatsappDesc": "Vous préférez la messagerie instantanée ? Échangez directement avec notre équipe commerciale.",
+    "whatsappBtn": "Discuter sur WhatsApp",
+    "formName": "Nom Complet",
+    "formNamePlaceholder": "Ex: Sam",
+    "formEmail": "Adresse Email",
+    "formEmailPlaceholder": "Ex: sam@gmail.com",
+    "formPhone": "Numéro de Téléphone",
+    "formPhonePlaceholder": "Ex: 50 123 456",
+    "formSubject": "Sujet",
+    "formSubjectPlaceholder": "Ex: Demande de stock / Informations",
+    "formMessage": "Message",
+    "formMessagePlaceholder": "Décrivez votre demande en détail...",
+    "formSubmit": "Envoyer le message",
+    "successTitle": "Message envoyé avec succès !",
+    "successDesc": "Merci de nous avoir contactés. Nous reviendrons vers vous dans les plus brefs délais."
+  }
+}
