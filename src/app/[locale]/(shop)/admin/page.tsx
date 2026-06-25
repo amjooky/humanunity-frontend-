@@ -255,6 +255,12 @@ export default function AdminPage() {
     metaWeight: "", metaFabric: "", metaFit: "",
   });
 
+  const [imageError, setImageError] = React.useState(false);
+
+  React.useEffect(() => {
+    setImageError(false);
+  }, [productFormData.mainImage]);
+
   // ─── Image Upload State ───────────────────────────────────────
   const [imageUploading, setImageUploading] = React.useState(false);
   const [imageUploadError, setImageUploadError] = React.useState("");
@@ -978,12 +984,11 @@ export default function AdminPage() {
                       <div className="flex flex-col gap-3">
                         <label className="text-xs font-display font-medium uppercase tracking-wider text-text-secondary">Image Principale</label>
                         <div className="flex gap-4 items-start">
-                          {/* Preview */}
-                          <div className="w-24 h-24 flex-shrink-0 bg-surface-100 border border-border-default rounded-xl overflow-hidden flex items-center justify-center">
-                            {productFormData.mainImage ? (
-                              <img src={productFormData.mainImage} alt="Preview" className="object-cover w-full h-full" onError={(e) => { (e.target as HTMLImageElement).src = PRODUCT_PLACEHOLDER; }} />
+                          <div className="w-24 h-24 flex-shrink-0 bg-surface-100 border border-border-default rounded-none overflow-hidden flex items-center justify-center">
+                            {productFormData.mainImage && !imageError ? (
+                              <img src={productFormData.mainImage} alt="Preview" className="object-cover w-full h-full" onError={() => setImageError(true)} />
                             ) : (
-                              <svg className="w-8 h-8 text-text-tertiary" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="3" y="3" width="18" height="18" rx="2" /><circle cx="8.5" cy="8.5" r="1.5" /><polyline points="21 15 16 10 5 21" /></svg>
+                              <img src={PRODUCT_PLACEHOLDER} alt="Placeholder" className="object-cover w-full h-full" />
                             )}
                           </div>
                           <div className="flex-1 flex flex-col gap-2">
