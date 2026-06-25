@@ -57,7 +57,7 @@ export default function Cursor() {
     <>
       {/* Inner sharp dot */}
       <motion.div
-        className="fixed top-0 left-0 w-2 h-2 bg-black z-[9999] pointer-events-none mix-blend-difference"
+        className="fixed top-0 left-0 w-2 h-2 bg-white z-[9999] pointer-events-none mix-blend-difference"
         animate={{
           x: mousePosition.x - 4,
           y: mousePosition.y - 4,
@@ -68,7 +68,7 @@ export default function Cursor() {
       />
       {/* Outer brutalist block */}
       <motion.div
-        className="fixed top-0 left-0 border-2 border-black z-[9998] pointer-events-none mix-blend-difference"
+        className="fixed top-0 left-0 border-2 border-white z-[9998] pointer-events-none mix-blend-difference"
         animate={{
           x: mousePosition.x - (isHovered ? 24 : 16),
           y: mousePosition.y - (isHovered ? 24 : 16),
