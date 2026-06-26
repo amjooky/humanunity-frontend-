@@ -48,6 +48,8 @@ export default function ContactPage() {
       <Container>
         <div className="text-center max-w-xl mx-auto mb-16 flex flex-col gap-3">
           <span className="font-display font-semibold text-[10px] uppercase tracking-widest text-primary-500">
+
+            
             {t("tag")}
           </span>
           <h1 className="font-display font-bold text-3xl md:text-5xl text-text-primary tracking-tight">
